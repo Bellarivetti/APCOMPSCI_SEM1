@@ -1,4 +1,4 @@
-public class Lesson_02
+public class RectangleL2
 {
 	public static void main(String[]args)
 	{
@@ -6,6 +6,6 @@ public class Lesson_02
 		int w = 5;
 		int recArea = 1 * w;
 		
-		System.out.println("The area of your rectangle is" + recArea);
+		System.out.println("The area of your rectangle is" +" "+ recArea);
 	}
 }
