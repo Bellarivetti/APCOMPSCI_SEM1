@@ -9,29 +9,29 @@ public class Subwoofer
 	  Subwoofer boom = new Subwoofer();
 
       double h = 0;
-      double l = 0;
-      double w = 0;
+      double len = 0;
+      double wid = 0;
 
-      double volume = 0;
+      double vole = 0;
   
       System.out.print("Enter the height: "); 
-      height = input.nextDouble();
+      h = input.nextDouble();
 
       System.out.print("Enter the length: "); 
-      length = input.nextDouble();
+      len = input.nextDouble();
 
       System.out.print("Enter the width: "); 
-      width = input.nextDouble();
+      wid = input.nextDouble();
 
-      volume = h * l * w; 
-	 double volume1 = boom.volume1(volume);
+      vole = h * len * wid; 
+	 double vole1 = boom.vole1(vole);
   
       System.out.println("");
-      System.out.println("The volume is  "+ volume+ " cubic inches");
-	  System.out.println("The volume in cubic feet is "+ volume1);
+      System.out.println("The volume is  "+ vole+ " cubic inches");
+	  System.out.println("The volume in cubic feet is "+ vole1);
 	
    }
-	public double volume1 (double volume){	
-	return(volume * 0.00057870);
+	public double vole1 (double vole){	
+	return(vole * 0.00057870);
 	}
 }
