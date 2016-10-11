@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class Subwoofer
+public class Average2
 {
 
    public static void main(String[]args) 
    {
       Scanner input = new Scanner(System.in);
-	  Subwoofer boom = new Subwoofer();
+	  Average boom = new Average();
 
       double h = 0;
       double len = 0;
