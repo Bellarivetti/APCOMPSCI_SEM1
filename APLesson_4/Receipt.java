@@ -5,22 +5,22 @@ public class Receipt
 	public static void main(String[]args)
 	{
 		Receipt form = new Receipt();
-		Scanner fj = new Scanner(System.in);
+		Scanner tj = new Scanner(System.in);
 		
 		System.out.println("Enter Item 1:");
-		String item1 = fj.next();
+		String item1 = tj.next();
 		System.out.println("Enter Price");
-		double price1 = fj.nextDouble();
+		double price1 = tj.nextDouble();
 		
 		System.out.println("Enter Item 2:");
-		String item2 = fj.next();
+		String item2 = tj.next();
 		System.out.println("Enter Price");
-		double price2 = fj.nextDouble();
+		double price2 = tj.nextDouble();
 		
 		System.out.println("Enter Item 3:");
-		String item3 = fj.next();
+		String item3 = tj.next();
 		System.out.println("Enter Price");
-		double price3 = fj.nextDouble();
+		double price3 = tj.nextDouble();
 		
 		form.format(item1, price1);
 		form.format(item2, price2);
