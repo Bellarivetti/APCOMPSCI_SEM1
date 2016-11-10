@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class lab3
 
-//revtriangle
+//reverse triangle
 {
 	public static void main (String[]args) 
 	{
