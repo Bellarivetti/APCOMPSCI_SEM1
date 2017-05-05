@@ -1,4 +1,5 @@
-public class Magpie2
+
+public class Magpie1
 
 {
 	/** Get a default greeting @return a greeting*/

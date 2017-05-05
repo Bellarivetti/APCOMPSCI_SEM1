@@ -16,8 +16,7 @@ public class MagpieRunner3
 	{
 		Magpie3 maggie = new Magpie3();
 		
-		System.out.println (maggie.getGreeting());
-		Scanner in = new Scanner (System.in);
+		System.out.println (maggie.getGreeting()); 
 		String statement = in.nextLine();
 		
 		while (!statement.equals("Bye"))
