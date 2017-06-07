@@ -781,9 +781,8 @@ public void displayPixelInformation(String xString, String yString)
    */
   public static void main( String args[])
   {
-    Picture pix = new Picture("koala.jpg");
+    Picture pix = new Picture("puppy.jpg");
     pix.explore();
   }
   
 }
-
